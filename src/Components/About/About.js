@@ -21,7 +21,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                    Frontend developer, I create Web pages with UI/UX user interface, I have done 6 months of internship in React.js and i'm learning Web Development from a years ago. i learn lots of things about website and Android Studio
+                    i'm Full Stack Developer, I create Web Pages, WebSite, Web App with UI/UX User Interface and BackEnd, and I can create Mobile Apps as well. I have done 6 months of internship in React.js and MERN Development and i'm learning Web Development from a years ago. i learn lots of things about Website Application Mobile Apps and Android Studio
                 </p>
 
                 <a download="" href={CV} className="button button--flex">Download CV
