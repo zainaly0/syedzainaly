@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className='header'>
       <nav className="nav container">
-        <a href="index.html" style={{fontSize: "1.6rem", fontWeight: "2rem", paddingLeft:"1.4rem", color:#000000}} >🏳️Rebuild Khilafat🏴</a>
+        <a href="index.html" style={{fontSize: "1.6rem", fontWeight: "2rem", paddingLeft:"1.4rem"}} >🏳️Rebuild Khilafat🏴</a>
 
         <div className={toggle ? "nav__menu show-menu" :"nav__menu"} >
             <ul className="nav__list grid">
