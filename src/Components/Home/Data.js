@@ -3,7 +3,7 @@ const Data = () => {
   return (
     <>
       <div className="home__data">
-        <h1 className="home__title" style={{fontSize: "1.7rem", fontWeight: "2.4rem"}}>Syed Zain Aly
+        <h1 className="home__title" style={{fontSize: "1.8rem", fontWeight: "2.5rem"}}>Syed Zain Aly
                   {/* basically this code is: possibly an icon, of a hand  */}
             <svg
                   width="36"
