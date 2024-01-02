@@ -55,7 +55,7 @@ const Data = () => {
                   ></path>
             </svg>  
         </h1>
-        <h3> Advocate ⚖️ | Engineer 💻 </h3>
+        <h3> Advocate, Law Student | Engineer, Software Developer </h3>
         <p className="home__description">I'm creative designer based in Khurasan from Masrik, and I'm very passionate and dedicated to my work</p>
 
         <a href="contact" className="button button--flex">
