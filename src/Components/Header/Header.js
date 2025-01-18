@@ -4,9 +4,7 @@ import './Header.css'
 const Header = () => {
  /* *******************Toggle Menu****************** */
     const [toggle, setToggle] = useState(false)
-    function showMenu(){
-        setToggle(true)
-    }
+    
     
 
   return (
