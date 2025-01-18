@@ -89,7 +89,7 @@
   /* for Small Device */
   @media screen and (min-width: 412px){
     .about{
-        width: 695px;
+        /* width: 695px; */
     }
     .about__box{
         padding: 40px 20px;

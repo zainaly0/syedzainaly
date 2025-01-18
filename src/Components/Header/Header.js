@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className='header'>
       <nav className="nav container">
-        <a href="index.html" style={{fontSize: "1.6rem", fontWeight: "2rem", paddingLeft:"1.4rem"}} >Zaid Aly</a>
+        <a href="index.html" style={{fontSize: "1.6rem", fontWeight: "2rem", paddingLeft:"1.4rem"}} >Syed Zain Aly</a>
 
         <div className={toggle ? "nav__menu show-menu" :"nav__menu"} >
             <ul className="nav__list grid">
@@ -56,9 +56,6 @@ const Header = () => {
             </ul>
 
             {/* <i className='uil uil-times nav__item'></i> */}
-        </div>
-        <div className="nav__toggle" onClick={() => showMenu(!toggle)}>
-        {/* <i className='uil uil-apps'></i> */}
         </div>
       </nav>
     </header>
