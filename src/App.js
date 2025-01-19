@@ -1,25 +1,23 @@
 import "./App.css";
-import Header from './Components/Header/Header'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import About from './Components/About/About';
+import Header from "./Components/Header/Header";
+import Footer from './Components/Footer/Footer';
+import ScrollUp from './Components/ScrollUp/ScrollUp';
 import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-// import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
-import ScrollUp from "./Components/ScrollUp.js/ScrollUp";
-
 function App() {
   return (
-    <div className="App">
-      {/* header components  */}
+    <div>
+    <Router>
       <Header />
-      <main>
-        <Home />
-        <About />
-        {/* <Contact /> */}
-      </main>
-      {/* footer components  */}
+      <Routes> 
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
       <Footer />
       <ScrollUp />
-    </div>
+    </Router>
+  </div>
   );
 }
 
