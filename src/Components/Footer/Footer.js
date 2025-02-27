@@ -1,13 +1,17 @@
 import React from "react";
 import "./Footer.css";
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
 
 
 const Footer = () => {
+  const location = useLocation();
+  const name = location.pathname === '/mullah' ? 'Mullah Zain Mujahid' : 'Syed Zaid Aly'
+
+
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Syed Zain Aly</h1>
+        <h1 className="footer__title">{name}</h1>
 
         <ul className="footer__list">
           <li>
@@ -55,7 +59,7 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-           Copyright &#169; 2023 SyedZainAly.com
+           Copyright &#169; 2023 syedzainaly.com
         </span>
       </div>
     </footer>

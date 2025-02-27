@@ -1,8 +1,12 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
+
+  const locaiton = useLocation();
+  const name = locaiton.pathname == '/mullah' ? 'Mullah Zain Mujahid' : 'Syed Zaid Aly';
+
   return (
     <header className="header">
       <nav className="nav container">
@@ -14,7 +18,7 @@ const Header = () => {
             paddingLeft: "1.4rem",
           }}
         >
-          Syed Zain Aly
+          {name}
         </a>
 
         <div className="nav__menu">
