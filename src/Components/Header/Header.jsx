@@ -10,16 +10,13 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a
-          href="index.html"
-          style={{
+        <Link to="/mullah"  style={{
             fontSize: "1.6rem",
             fontWeight: "2rem",
             paddingLeft: "1.4rem",
-          }}
-        >
-          {name}
-        </a>
+          }}>
+         {name}
+        </Link> 
 
         <div className="nav__menu">
           <ul className="nav__list grid">
