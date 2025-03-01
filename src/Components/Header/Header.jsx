@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 const Header = () => {
 
   const locaiton = useLocation();
-  const name = locaiton.pathname == '/mullah' ? 'Mullah Zain Mujahid' : 'Syed Zaid Aly';
+  const name = locaiton.pathname === '/mullah' ? 'Mullah Zain Mujahid' : 'Syed Zaid Aly';
 
   return (
     <header className="header">
